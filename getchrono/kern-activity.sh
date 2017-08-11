@@ -31,7 +31,7 @@ identify_geo_ips(){
   > "$LOG_TYPE"_"$FILE_PREFIX".geo-ips
   while read ip
   do
-    curl --silent freegeoip.net/json/"$ip"| jq 'select(.country_code == "NP")| .ip' --raw-output >> "$LOG_TYPE"_"$FILE_PREFIX".geo-ips
+    curl --silent freegeoip.net/json/"$ip"| jq 'select(.country_code == "PH")| .ip' --raw-output >> "$LOG_TYPE"_"$FILE_PREFIX".geo-ips
   done < "$LOG_TYPE"_"$FILE_PREFIX".ips
 }
 
