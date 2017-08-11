@@ -62,7 +62,7 @@ done < $(ls -A1 "$LOG_TYPE"_"$FILE_PREFIX".geo-ips)
 }
 
 
-install_prerequisite
+#install_prerequisite
 header
 grab_all_ips
 identify_geo_ips
