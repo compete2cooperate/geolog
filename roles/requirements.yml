@@ -1,4 +1,4 @@
 ---
 roles:
-  - name: geerlingguy.apt.apt
+  - name: community.general
     version: 1.0.0
