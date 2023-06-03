@@ -1,4 +1,4 @@
 ---
 roles:
-  - name: ontic.awscli
+  - name: geerlingguy.apt.apt
     version: 1.0.0
