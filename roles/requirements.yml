@@ -1,4 +1,4 @@
 ---
 roles:
-  - name: my_role
+  - name: ontic.awscli
     version: 1.0.0
